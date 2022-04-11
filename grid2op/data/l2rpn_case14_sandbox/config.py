@@ -8,7 +8,7 @@ from grid2op.Backend import PandaPowerBackend
 config = {
     "backend": PandaPowerBackend,
     "action_class": TopologyAndDispatchAction,
-    "observation_class": None,
+    "observation_class": CompleteObservation,
     "reward_class": RedispReward,
     "gamerules_class": DefaultRules,
     "chronics_class": Multifolder,

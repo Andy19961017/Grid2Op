@@ -107,24 +107,24 @@ class CompleteObservation(BaseObservation):
     """
     attr_list_vect = [
         "year", "month", "day", "hour_of_day",
-        "minute_of_hour", "day_of_week",
-        "gen_p", "gen_q", "gen_v",
-        "load_p", "load_q", "load_v",
-        "p_or", "q_or", "v_or", "a_or",
-        "p_ex", "q_ex", "v_ex", "a_ex",
-        "rho",
-        "line_status", "timestep_overflow",
-        "topo_vect",
-        "time_before_cooldown_line", "time_before_cooldown_sub",
-        "time_next_maintenance", "duration_next_maintenance",
-        "target_dispatch", "actual_dispatch",
-        "storage_charge", "storage_power_target", "storage_power",
-        "gen_p_before_curtail", "curtailment", "curtailment_limit",
-        "is_alarm_illegal", "time_since_last_alarm", "last_alarm", "attention_budget",
-        "was_alarm_used_after_game_over",
-        "_shunt_p", "_shunt_q", "_shunt_v", "_shunt_bus",  # starting from grid2op version 1.6.0
-        "current_step", "max_step",  # starting from grid2op version 1.6.4
-        "delta_time"  # starting grid2op version 1.6.5
+        # "minute_of_hour", "day_of_week",
+        # "gen_p", "gen_q", "gen_v",
+        # "load_p", "load_q", "load_v",
+        # "p_or", "q_or", "v_or", "a_or",
+        # "p_ex", "q_ex", "v_ex", "a_ex",
+        # "rho",
+        # "line_status", "timestep_overflow",
+        # "topo_vect",
+        # "time_before_cooldown_line", "time_before_cooldown_sub",
+        # "time_next_maintenance", "duration_next_maintenance",
+        # "target_dispatch", "actual_dispatch",
+        # "storage_charge", "storage_power_target", "storage_power",
+        # "gen_p_before_curtail", "curtailment", "curtailment_limit",
+        # "is_alarm_illegal", "time_since_last_alarm", "last_alarm", "attention_budget",
+        # "was_alarm_used_after_game_over",
+        # "_shunt_p", "_shunt_q", "_shunt_v", "_shunt_bus",  # starting from grid2op version 1.6.0
+        # "current_step", "max_step",  # starting from grid2op version 1.6.4
+        # "delta_time"  # starting grid2op version 1.6.5
     ]
     attr_list_json = ["_thermal_limit",
                       "support_theta",
